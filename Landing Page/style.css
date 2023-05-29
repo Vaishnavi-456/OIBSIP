@@ -1,0 +1,230 @@
+/* Global styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+  background-color: #b0da80;
+  padding: 1rem;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 2rem;
+  position: relative;
+  list-style: none;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 2px solid transparent;
+}
+
+nav a:hover {
+  color: #f8f5f7;
+  border-bottom: 2px solid #6ca84a;
+  transition: color 0.3s ease-in-out, border-bottom 0.3s ease-in-out;
+}
+.logo {
+  float: left;
+
+}
+.logo img {
+  height: 7rem;
+  border-radius: 50%;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  overflow: hidden;
+}
+
+
+/* Hero section styles */
+.hero {
+  background-image: url('background.png');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 5rem 0;
+  background-color: rgba(0,0,0,0.4);
+  }
+  
+  .hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px #000;
+  }
+  
+  .hero p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  }
+  
+  .hero button {
+  background-color: #dc143c;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-shadow: 2px 2px #000;
+  }
+  
+  .hero button:hover {
+  background-color: #fff;
+  color: #dc143c;
+  border: 1px solid #dc143c;
+  }
+/* Menu section styles */
+
+.menu h2{
+  text-align: center;
+}
+.menu li {
+  position: relative;
+  list-style: none;
+  width: 300px;
+  height: 200px;
+  margin: 20px;
+  display: inline-block;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  
+}
+.menu li:active {
+  border: 2px solid red;
+}
+
+
+.menu li span {
+  position: center;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+  padding: 0 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+.menu li span.name {
+  bottom: 60px;
+  font-size: 36px;
+}
+
+.menu li.item1 {
+  background-image: url('pizza.png');
+}
+
+.menu li.item2 {
+  background-image: url('burger.png');
+}
+
+.menu li.item3 {
+  background-image: url('salad.png');
+}
+
+.menu li.item4 {
+  background-image: url('pasta.png');
+}
+
+/* About section styles */
+/* About section */
+.about {
+  background-color: #e6b7eb;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.about p {
+  font-size: 1.5rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+  color: #666;
+}
+
+.about img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 2rem;
+  border-radius: 50%;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact section */
+.contact {
+  padding: 2rem;
+}
+
+.contact label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.contact button[type="submit"] {
+  background-color: #dc143c;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.contact button[type="submit"]:hover {
+  background-color: #af0c2b;
+}
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
